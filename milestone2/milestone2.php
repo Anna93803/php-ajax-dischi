@@ -21,8 +21,8 @@
                 <div class="bg-main">
                     <div class="container">
                         <div class="bg-card">
-                            <div class="card" v-for="disco in dbDischi">
-                                <img src="`${disco.poster}`" alt="">
+                            <div class="card" v-for="disco in arrayList">
+                                <img src="disco.poster" alt="">
                                 <h4>{{ disco.title }}</h4>
                                 <p>{{ disco.author }}</p>
                                 <p>{{ disco.genre }}</p>
