@@ -6,7 +6,8 @@ const appVue = new Vue({
     },
     mounted() {
         axios.get(this.apiUrl).then((resp) =>{
-            this.arrayList = resp.data.dbDischi;
+            this.arrayList = resp.data.disco;
+            console.log(resp);
         })
     }
 });
